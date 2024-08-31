@@ -1,16 +1,15 @@
 # internship_asg
 
-A new Flutter project.
+The main feature of the Stockslist widget is to read data from a JSON file and display it using a ListView.builder. It shows a list of stocks where each item displays:
 
-## Getting Started
+The name of the stock
+Its amount
+Intra-day performance (highlighted in green or red)
+A description of the stock
+The percentage change of the stock
+Features
+Automatic Loading of JSON Data: The app automatically reads stock data from a db.json file upon initialization.
+Dynamic Data Handling: The app dynamically populates the UI based on the data provided in the JSON file.
+Formatted Stock Data: Each stock entry is formatted with color-coded intra-day performance (green for positive, red for negative).
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
