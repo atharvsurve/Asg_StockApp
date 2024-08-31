@@ -1,0 +1,68 @@
+{
+    "data":[
+        {
+            "id" : "1" ,
+            "Name" : "Reliance",
+            "desc" : "NSE | EQ",
+            "Amount":"3,000.00",
+            "IntraDay": 5.35,
+            "percent":"+0.12%"
+        },
+        {
+            "id" : "2" ,
+            "Name" : "MRF",
+            "desc" : "NSE | EQ",
+            "Amount":"1,23,000.00",
+            "IntraDay": -300.35,
+            "percent":"-0.21%"
+        },
+        {
+            "id" : "3" ,
+            "Name" : "TATAINVEST",
+            "desc" : "NSE | EQ",
+            "Amount":"3,600.00",
+            "IntraDay": 15.35,
+            "percent":"+0.18%"
+        },
+        {
+            "id" : "4" ,
+            "Name" : "TATASTEEL",
+            "desc" : "NSE | EQ",
+            "Amount":"1,600.00",
+            "IntraDay": 5.35,
+            "percent":"+0.12%"
+        },
+        {
+            "id" : "5",
+            "Name" : "ADANENT",
+            "desc" : "NSE | EQ",
+            "Amount":"3,500.00",
+            "IntraDay": 1.60,
+            "percent":"+0.06%"
+        },
+        {
+            "id" : "6" ,
+            "Name" : "PAYTM",
+            "desc" : "NSE | EQ",
+            "Amount":"500",
+            "IntraDay": -5.35,
+            "percent":"-0.12%"
+        },
+        {
+            "id" : "7" ,
+            "Name" : "NYKAA",
+            "desc" : "NSE | EQ",
+            "Amount":"1,000.00",
+            "IntraDay": 8.95,
+            "percent":"+0.08%"
+        },
+        {
+            "id" : "8",
+            "Name" : "ASIANPAINT",
+            "desc" : "NSE | EQ",
+            "Amount":"3,000.00",
+            "IntraDay": -5.35,
+            "percent":"+0.12%"
+        }
+    ]
+}
