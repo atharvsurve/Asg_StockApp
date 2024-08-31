@@ -22,3 +22,33 @@ currentIndex: myIndex: This property tracks the currently selected item. It ensu
 onTap: (index): When the user taps an item in the navigation bar, this callback is triggered. It updates the myIndex to the selected index, which in turn updates the visible screen in the IndexedStack.
 selectedItemColor and unselectedItemColor: These properties control the color of the navigation icons and labels. The selected item is fully opaque, while the unselected items are partially transparent.
 selectedLabelStyle and unselectedLabelStyle: These define the font size and weight for the labels under the navigation icons.
+
+MediaQuery is used to prevent renderoverflow on all devices . 
+WatchlistBar : 
+It leverages PageView, PageController, and custom decoration for the selected items.
+State Variables
+_selectedIndex: Keeps track of the currently selected item in the horizontal list.
+_items: A list of widgets representing the different watchlist views.
+_pageController: Controls the page navigation in the PageView.
+The PageController is central to the functioning of this widget. It is initialized in the initState() method with the selected index to manage which page is displayed in the PageView.
+When an item is tapped in the horizontal bar, the PageController jumps to the corresponding page using the jumpToPage() method.
+Additionally, as the user swipes through pages, the onPageChanged callback is used to update the selected index
+The _getItemDecoration function is responsible for highlighting the selected item in the horizontal list. When an item is selected, the function returns a black-colored BoxDecoration to visually indicate the selected state.
+
+SearchBar : 
+hint text , border radius border , suffix is added as per the given UI desing . 
+
+The overflow of the app:
+HomeScreen : has the navigation bar and all pages are stakced in it . 
+WatchlistMain : This page has a watchlistBar 
+WatchlistBar : the sliding pages of all watchlist and the bar desing is in this page 
+_items list has the watchlist pages out of which i have desinged nly one as mentioned in the UI and the other pages are jsut passed for referrence 
+
+
+
+
+
+
+
+
+
